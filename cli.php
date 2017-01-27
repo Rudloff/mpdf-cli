@@ -4,7 +4,7 @@ require_once __DIR__.'/vendor/autoload.php';
 
 use GuzzleHttp\Client;
 
-$climate = new League\CLImate\CLImate;
+$climate = new League\CLImate\CLImate();
 
 $climate->arguments->add([
     'url' => [
